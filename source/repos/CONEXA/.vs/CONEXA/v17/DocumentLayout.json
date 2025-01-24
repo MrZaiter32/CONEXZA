@@ -1,0 +1,245 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\zaite\\source\\repos\\CONEXA\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{112AC86E-9321-41DB-ADD7-88D3E55841F2}|CONEXA.csproj|c:\\users\\zaite\\source\\repos\\conexa\\views\\productos\\crear.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{112AC86E-9321-41DB-ADD7-88D3E55841F2}|CONEXA.csproj|solutionrelative:views\\productos\\crear.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{112AC86E-9321-41DB-ADD7-88D3E55841F2}|CONEXA.csproj|c:\\users\\zaite\\source\\repos\\conexa\\models\\familia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{112AC86E-9321-41DB-ADD7-88D3E55841F2}|CONEXA.csproj|solutionrelative:models\\familia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{112AC86E-9321-41DB-ADD7-88D3E55841F2}|CONEXA.csproj|c:\\users\\zaite\\source\\repos\\conexa\\views\\productos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{112AC86E-9321-41DB-ADD7-88D3E55841F2}|CONEXA.csproj|solutionrelative:views\\productos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{112AC86E-9321-41DB-ADD7-88D3E55841F2}|CONEXA.csproj|c:\\users\\zaite\\source\\repos\\conexa\\models\\productos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{112AC86E-9321-41DB-ADD7-88D3E55841F2}|CONEXA.csproj|solutionrelative:models\\productos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{112AC86E-9321-41DB-ADD7-88D3E55841F2}|CONEXA.csproj|c:\\users\\zaite\\source\\repos\\conexa\\controllers\\productoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{112AC86E-9321-41DB-ADD7-88D3E55841F2}|CONEXA.csproj|solutionrelative:controllers\\productoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{112AC86E-9321-41DB-ADD7-88D3E55841F2}|CONEXA.csproj|c:\\users\\zaite\\source\\repos\\conexa\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{112AC86E-9321-41DB-ADD7-88D3E55841F2}|CONEXA.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{112AC86E-9321-41DB-ADD7-88D3E55841F2}|CONEXA.csproj|c:\\users\\zaite\\source\\repos\\conexa\\models\\unidadmedida.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{112AC86E-9321-41DB-ADD7-88D3E55841F2}|CONEXA.csproj|solutionrelative:models\\unidadmedida.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{112AC86E-9321-41DB-ADD7-88D3E55841F2}|CONEXA.csproj|c:\\users\\zaite\\source\\repos\\conexa\\wwwroot\\js\\productos.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{112AC86E-9321-41DB-ADD7-88D3E55841F2}|CONEXA.csproj|solutionrelative:wwwroot\\js\\productos.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{112AC86E-9321-41DB-ADD7-88D3E55841F2}|CONEXA.csproj|c:\\users\\zaite\\source\\repos\\conexa\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{112AC86E-9321-41DB-ADD7-88D3E55841F2}|CONEXA.csproj|solutionrelative:data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{112AC86E-9321-41DB-ADD7-88D3E55841F2}|CONEXA.csproj|c:\\users\\zaite\\source\\repos\\conexa\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{112AC86E-9321-41DB-ADD7-88D3E55841F2}|CONEXA.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{112AC86E-9321-41DB-ADD7-88D3E55841F2}|CONEXA.csproj|c:\\users\\zaite\\source\\repos\\conexa\\conexa.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{112AC86E-9321-41DB-ADD7-88D3E55841F2}|CONEXA.csproj|solutionrelative:conexa.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{112AC86E-9321-41DB-ADD7-88D3E55841F2}|CONEXA.csproj|c:\\users\\zaite\\source\\repos\\conexa\\migrations\\20250119075953_addfototoproductos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{112AC86E-9321-41DB-ADD7-88D3E55841F2}|CONEXA.csproj|solutionrelative:migrations\\20250119075953_addfototoproductos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{112AC86E-9321-41DB-ADD7-88D3E55841F2}|CONEXA.csproj|c:\\users\\zaite\\source\\repos\\conexa\\migrations\\20250119074545_updateinventariosrequired.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{112AC86E-9321-41DB-ADD7-88D3E55841F2}|CONEXA.csproj|solutionrelative:migrations\\20250119074545_updateinventariosrequired.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{112AC86E-9321-41DB-ADD7-88D3E55841F2}|CONEXA.csproj|c:\\users\\zaite\\source\\repos\\conexa\\migrations\\20250119073606_initialtest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{112AC86E-9321-41DB-ADD7-88D3E55841F2}|CONEXA.csproj|solutionrelative:migrations\\20250119073606_initialtest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Familia.cs",
+              "DocumentMoniker": "C:\\Users\\zaite\\source\\repos\\CONEXA\\Models\\Familia.cs",
+              "RelativeDocumentMoniker": "Models\\Familia.cs",
+              "ToolTip": "C:\\Users\\zaite\\source\\repos\\CONEXA\\Models\\Familia.cs",
+              "RelativeToolTip": "Models\\Familia.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-19T09:01:30.131Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Productos.cs",
+              "DocumentMoniker": "C:\\Users\\zaite\\source\\repos\\CONEXA\\Models\\Productos.cs",
+              "RelativeDocumentMoniker": "Models\\Productos.cs",
+              "ToolTip": "C:\\Users\\zaite\\source\\repos\\CONEXA\\Models\\Productos.cs",
+              "RelativeToolTip": "Models\\Productos.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-19T09:01:00.113Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\zaite\\source\\repos\\CONEXA\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\zaite\\source\\repos\\CONEXA\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-19T07:09:13.546Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UnidadMedida.cs",
+              "DocumentMoniker": "C:\\Users\\zaite\\source\\repos\\CONEXA\\Models\\UnidadMedida.cs",
+              "RelativeDocumentMoniker": "Models\\UnidadMedida.cs",
+              "ToolTip": "C:\\Users\\zaite\\source\\repos\\CONEXA\\Models\\UnidadMedida.cs",
+              "RelativeToolTip": "Models\\UnidadMedida.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-19T08:46:12.101Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "productos.js",
+              "DocumentMoniker": "C:\\Users\\zaite\\source\\repos\\CONEXA\\wwwroot\\js\\productos.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\productos.js",
+              "ToolTip": "C:\\Users\\zaite\\source\\repos\\CONEXA\\wwwroot\\js\\productos.js",
+              "RelativeToolTip": "wwwroot\\js\\productos.js",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAwwD8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-01-19T08:38:16.082Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\zaite\\source\\repos\\CONEXA\\Views\\Productos\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Productos\\Index.cshtml",
+              "ToolTip": "C:\\Users\\zaite\\source\\repos\\CONEXA\\Views\\Productos\\Index.cshtml",
+              "RelativeToolTip": "Views\\Productos\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-19T08:23:51.895Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Crear.cshtml",
+              "DocumentMoniker": "C:\\Users\\zaite\\source\\repos\\CONEXA\\Views\\Productos\\Crear.cshtml",
+              "RelativeDocumentMoniker": "Views\\Productos\\Crear.cshtml",
+              "ToolTip": "C:\\Users\\zaite\\source\\repos\\CONEXA\\Views\\Productos\\Crear.cshtml",
+              "RelativeToolTip": "Views\\Productos\\Crear.cshtml",
+              "ViewState": "AgIAAGgAAAAAAAAAAAAmwIQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-19T08:08:58.978Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ProductosController.cs",
+              "DocumentMoniker": "C:\\Users\\zaite\\source\\repos\\CONEXA\\Controllers\\ProductosController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProductosController.cs",
+              "ToolTip": "C:\\Users\\zaite\\source\\repos\\CONEXA\\Controllers\\ProductosController.cs",
+              "RelativeToolTip": "Controllers\\ProductosController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-19T08:05:01.29Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "20250119075953_AddFotoToProductos.cs",
+              "DocumentMoniker": "C:\\Users\\zaite\\source\\repos\\CONEXA\\Migrations\\20250119075953_AddFotoToProductos.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250119075953_AddFotoToProductos.cs",
+              "ToolTip": "C:\\Users\\zaite\\source\\repos\\CONEXA\\Migrations\\20250119075953_AddFotoToProductos.cs",
+              "RelativeToolTip": "Migrations\\20250119075953_AddFotoToProductos.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-19T07:59:54.088Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "20250119074545_UpdateInventariosRequired.cs",
+              "DocumentMoniker": "C:\\Users\\zaite\\source\\repos\\CONEXA\\Migrations\\20250119074545_UpdateInventariosRequired.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250119074545_UpdateInventariosRequired.cs",
+              "ToolTip": "C:\\Users\\zaite\\source\\repos\\CONEXA\\Migrations\\20250119074545_UpdateInventariosRequired.cs",
+              "RelativeToolTip": "Migrations\\20250119074545_UpdateInventariosRequired.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-19T07:45:45.776Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "20250119073606_InitialTest.cs",
+              "DocumentMoniker": "C:\\Users\\zaite\\source\\repos\\CONEXA\\Migrations\\20250119073606_InitialTest.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250119073606_InitialTest.cs",
+              "ToolTip": "C:\\Users\\zaite\\source\\repos\\CONEXA\\Migrations\\20250119073606_InitialTest.cs",
+              "RelativeToolTip": "Migrations\\20250119073606_InitialTest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-19T07:36:06.296Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\zaite\\source\\repos\\CONEXA\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\zaite\\source\\repos\\CONEXA\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-19T07:13:12.321Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\zaite\\source\\repos\\CONEXA\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\zaite\\source\\repos\\CONEXA\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-19T07:12:34.156Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CONEXA.csproj",
+              "DocumentMoniker": "C:\\Users\\zaite\\source\\repos\\CONEXA\\CONEXA.csproj",
+              "RelativeDocumentMoniker": "CONEXA.csproj",
+              "ToolTip": "C:\\Users\\zaite\\source\\repos\\CONEXA\\CONEXA.csproj",
+              "RelativeToolTip": "CONEXA.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-01-19T07:10:45.284Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

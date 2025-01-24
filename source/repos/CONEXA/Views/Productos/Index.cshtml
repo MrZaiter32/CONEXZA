@@ -1,0 +1,41 @@
+﻿@model IEnumerable<CONEXA.Data.Producto>
+
+<h2>Lista de Productos</h2>
+
+<a href="/Productos/Crear" class="btn btn-primary mb-3">Agregar Producto</a>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>SKU</th>
+            <th>Nombre</th>
+            <th>Descripción</th>
+            <th>Precio Público</th>
+            <th>Existencias</th>
+            <th>Foto</th>
+            <th>Acciones</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var producto in Model)
+        {
+            <tr>
+                <td>@producto.Sku</td>
+                <td>@producto.Nombre</td>
+                <td>@producto.Descripcion</td>
+                <td>@producto.PrecioPublico</td>
+                <td>@producto.Existencias</td>
+                <td>
+                    @if (!string.IsNullOrEmpty(producto.Foto))
+                    {
+                        <img src="@producto.Foto" alt="@producto.Nombre" width="100" />
+                    }
+                </td>
+                <td>
+                    <a href="#" class="btn btn-warning">Editar</a>
+                    <a href="#" class="btn btn-danger">Eliminar</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

@@ -1,0 +1,8 @@
+C:\Users\zaite\source\repos\CONEXA\obj\Debug\net8.0\CONEXA.csproj.AssemblyReference.cache
+C:\Users\zaite\source\repos\CONEXA\obj\Debug\net8.0\CONEXA.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\zaite\source\repos\CONEXA\obj\Debug\net8.0\CONEXA.AssemblyInfoInputs.cache
+C:\Users\zaite\source\repos\CONEXA\obj\Debug\net8.0\CONEXA.AssemblyInfo.cs
+C:\Users\zaite\source\repos\CONEXA\obj\Debug\net8.0\CONEXA.csproj.CoreCompileInputs.cache
+C:\Users\zaite\source\repos\CONEXA\obj\Debug\net8.0\CONEXA.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\zaite\source\repos\CONEXA\obj\Debug\net8.0\CONEXA.RazorAssemblyInfo.cache
+C:\Users\zaite\source\repos\CONEXA\obj\Debug\net8.0\CONEXA.RazorAssemblyInfo.cs

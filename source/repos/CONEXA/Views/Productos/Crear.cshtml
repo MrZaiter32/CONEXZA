@@ -1,0 +1,132 @@
+﻿@model CONEXA.Data.Producto
+
+<h2>Crear Producto</h2>
+
+<form asp-action="Crear" method="post" enctype="multipart/form-data">
+    <div class="form-group">
+        <label for="sku">SKU</label>
+        <input asp-for="Sku" class="form-control" id="sku" placeholder="Ingresa el SKU" />
+        <span asp-validation-for="Sku" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label for="nombre">Nombre</label>
+        <input asp-for="Nombre" class="form-control" id="nombre" placeholder="Nombre del producto" />
+        <span asp-validation-for="Nombre" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label for="numeroParte">Número de Parte</label>
+        <input asp-for="NumeroParte" class="form-control" id="numeroParte" placeholder="Número de parte del producto" />
+        <span asp-validation-for="NumeroParte" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label for="equivalencia1">Equivalencia 1</label>
+        <input asp-for="Equivalencia1" class="form-control" id="equivalencia1" placeholder="Primera equivalencia" />
+        <span asp-validation-for="Equivalencia1" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label for="equivalencia2">Equivalencia 2</label>
+        <input asp-for="Equivalencia2" class="form-control" id="equivalencia2" placeholder="Segunda equivalencia" />
+        <span asp-validation-for="Equivalencia2" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label for="marca">Marca</label>
+        <input asp-for="Marca" class="form-control" id="marca" placeholder="Marca del producto" />
+        <span asp-validation-for="Marca" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label for="ubicacion">Ubicación</label>
+        <input asp-for="Ubicacion" class="form-control" id="ubicacion" placeholder="Ubicación en el almacén (ej. A1)" />
+        <span asp-validation-for="Ubicacion" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label for="descripcion">Descripción</label>
+        <textarea asp-for="Descripcion" class="form-control" id="descripcion" placeholder="Descripción del producto"></textarea>
+        <span asp-validation-for="Descripcion" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label for="familia">Familia</label>
+        <div class="d-flex align-items-center">
+            <select asp-for="FamiliaId" class="form-control" id="familia">
+                <option value="">Selecciona una familia</option>
+                @foreach (var familia in ViewBag.Familias)
+                {
+                    <option value="@familia.Id">@familia.Nombre</option>
+                }
+            </select>
+            <button type="button" class="btn btn-primary ml-2" data-toggle="modal" data-target="#crearFamiliaModal">
+                Agregar Familia
+            </button>
+        </div>
+        <span asp-validation-for="FamiliaId" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label for="unidadMedida">Unidad de Medida</label>
+        <div class="d-flex align-items-center">
+            <select asp-for="UnidadMedidaId" class="form-control" id="unidadMedida">
+                <option value="">Selecciona una unidad</option>
+                @foreach (var unidad in ViewBag.UnidadesMedida)
+                {
+                    <option value="@unidad.Id">@unidad.Nombre</option>
+                }
+            </select>
+            <button type="button" class="btn btn-primary ml-2" data-toggle="modal" data-target="#crearUnidadModal">
+                Agregar Unidad
+            </button>
+        </div>
+        <span asp-validation-for="UnidadMedidaId" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label for="foto">Foto</label>
+        <input type="file" name="foto" class="form-control" id="foto" />
+    </div>
+    <button type="submit" class="btn btn-primary mt-3">Guardar</button>
+</form>
+
+<!-- Modal para agregar familia -->
+<div class="modal fade" id="crearFamiliaModal" tabindex="-1" aria-labelledby="crearFamiliaModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="crearFamiliaModalLabel">Agregar Familia</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Cerrar">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form id="formCrearFamilia">
+                    <div class="form-group">
+                        <label for="nombreFamilia">Nombre</label>
+                        <input type="text" id="nombreFamilia" class="form-control" placeholder="Nombre de la familia" required />
+                    </div>
+                    <button type="button" class="btn btn-primary" id="guardarFamilia">Guardar Familia</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal para agregar unidad de medida -->
+<div class="modal fade" id="crearUnidadModal" tabindex="-1" aria-labelledby="crearUnidadModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="crearUnidadModalLabel">Agregar Unidad de Medida</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Cerrar">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form id="formCrearUnidad">
+                    <div class="form-group">
+                        <label for="nombreUnidad">Nombre</label>
+                        <input type="text" id="nombreUnidad" class="form-control" placeholder="Nombre de la unidad" required />
+                    </div>
+                    <button type="button" class="btn btn-primary" id="guardarUnidad">Guardar Unidad</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Incluir el archivo de script -->
+<script src="/js/productos.js"></script>
